@@ -14,12 +14,12 @@
     <!--AppFramework plugin for sliding side menu-->
     <script type="text/javascript" charset="utf-8" src="appframework/plugins/af.slidemenu.js"></script>
     <script type="text/javascript" charset="utf-8" src="appframework/list.js"></script>
-    <!-- phantom library, needed for XDK "legacy" container api calls -->
+    <!-- phantom library, needed for XDK "legacy" container api calls 
     <script src="intelxdk.js"></script>
-    <!-- phantom library, needed for Cordova api calls -->
+     phantom library, needed for Cordova api calls 
     <script src="cordova.js"></script>
-    <!-- phantom library, needed for XDK "legacy" container CORS -->
-    <script src="xhr.js"></script>
+    phantom library, needed for XDK "legacy" container CORS
+    <script src="xhr.js"></script>-->
     
     <script>
         var onDeviceReady=function(){                             // called when Cordova is ready
@@ -528,26 +528,74 @@
                     Sort by name
                     </button>
 
+					<div id="hacker-list">
                     <ul class="list">
-                        <li>
-                            <h3 class="name">Jonny Stromberg</h3>
-                            <p class="state">Madhya Pradesh</p>
+                        <li class= "sjdgf">
+                            <strong class="name">Narendra Modi</strong>
+                            <p class="state">Vadodara</p>
+							<div data-transition="slide" class="wrap" style="display:none;">
+<div style="background:khaki;">
+        <h2 class="main-title">NARENDRA MODI <font color="green" size="1">(Winner)</font></h2>
+
+        <h5>
+        VADODARA  (GUJARAT)
+        </h5>
+ <div>
+        <b>Party:</b>BJP
+ </div>
+
+        <div>
+            <b>S/o|D/o|W/o:</b>
+            DAMODARDAS MODI
+        </div>
+
+        <div>
+            <b>Age:</b> 63
+        </div>
+
+
+
+        <div>
+            <b>Address:</b>
+            C-1 SOMESHWAR TENAMENT, RANIP , AHMEDABAD-382480.
+        </div>
+			<div class="grid_3 alpha"><b>Name Enrolled as Voter in: </b>6- GANDHINAGAR (Gujarat) constituency			, at Serial no 409  in Part no   110 </div>
+			<div><b>Email:</b>n_modi2012@yahoo.com</div>
+			<div><b>Contact Number:</b> 079-23232611</div>
+<div class="clearfix"></div>
+  <p>	<b>Self Profession:</b>SOCIAL &amp; POLITICAL ACTIVITY<br>
+	<b>Spouse Profession:</b>
+</p>
+    </div>
+							</div>
                         </li>
                         <li>
-                            <h3 class="name">Jonas Arnklint</h3>
+                            <strong class="name">Jonas Arnklint</strong>
                             <p class="state">Delhi</p>
                         </li>
                         <li>
-                            <h3 class="name">Martina Elm</h3>
+                            <strong class="name">Martina Elm</strong>
                             <p class="state">Uttar Pradesh</p>
                         </li>
                         <li>
-                            <h3 class="name">Gustaf Lindqvist</h3>
+                            <strong class="name">Gustaf Lindqvist</strong>
                             <p class="state">Assam</p>
                         </li>
                     </ul>
+						
+					</div><!--hacker-list ends-->
             <p></p>
         </div>
+		<script type="text/javascript" charset="utf-8">
+			$(".sjdgf").click(function(){
+				$(".wrap").toggle();
+				console.log("I am alive");
+			});
+			var options = {
+				    valueNames: [ 'name', 'state' ]
+			};
+			var hackerList = new List('hacker-list', options);
+		</script>
         
         <div class="panel" title="Bills" id="page3" data-footer="none">
             <header>
@@ -562,272 +610,272 @@
             </td>
       </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft MMDR (A) bill.pdf" >Draft Mines and Minerals (Development and Regulation) (Amendment) Bill, 2014</a>(435.73 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Road Safety Bill 2014.pdf" >Draft Road Transport and Safety Bill 2014</a>(2,490.22 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft proposal to amend BIS Act.pdf" >Draft Proposal to amend BIS Act</a>(270.65 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft RCB Bill 2014 with background note.pdf" >Draft Regional Centre for Biotechnology Bill, 2014</a>(726.50 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft- Juvenile justice bill, 2014.pdf" >Draft Juvenile Justice (Care and Protection of Children) Bill, 2014</a>(938.48 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Indian Stamp (A) Bill, 2014.pdf" >Draft The Indian Stamp (Amendment) Bill, 2014</a>(962.53 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Direct Taxes Code, 2013.pdf" >The Direct Taxes Code, 2013</a>(2,982.99 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Prevention of Sporting Fraud Bill 2013.pdf" >Draft Prevention of Sporting Fraud Bill, 2013</a>(364.14 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Revised Draft--Press and Registration of Books Bill.pdf" >Draft (Revised) Press and Registration of Books and Publications Bill, 2013</a>(794.30 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Cinematograph Bill, 2013-.pdf" >The Cinematograph Bill, 2013</a>(995.93 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Rights of Persons with Disabilities Bill, 2012.pdf" >Draft Rights of Persons with Disabilities Bill, 2012</a>(382.74 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Revised Draft Public Procurement Bill, 2012.pdf" >Draft (Revised) Public Procurement Bill, 2012</a>(446.75 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Real Estate_BILL-2011_OM09112011.pdf" >Draft Real Estate (Regulation &amp; Development) Bill, 201_</a>(271.54 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Citizens Right to Grievance Redress Bill, 2011.pdf" >Draft Citizens Right to Grievance Redress Bill, 2011</a>(422.30 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/public_pro_bill.pdf" >Draft Public Procurement Bill, 2011</a>(875.66 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Revised Draft of Sports Development Bill 2011.pdf" >Draft National Sports Development Bill, 2011</a>(474.69 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Mines and Minerals Bill 2011.pdf" >Draft Mines and Minerals Development and Regulation Bill (MMDR)-2011</a>(670.71 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/IIITBill-2010.pdf" >Draft Indian Institutes of Information Technology Bill, 2010</a>(145.43 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft_National_Food_Security_Bill 2011.pdf" >Draft National Food Security Bill, 2011</a>(146.53 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Port Regulatory Authority Bill, 2011.pdf" >Draft Port Regulatory Authority Bill, 2011</a>(225.24 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Indian Ports Bill 2011.pdf" >Draft Indian Ports Bill 2011</a>(687.64 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/micro_finance_institution_bill_2011.pdf" >Draft Micro Finance Institutions(Development and Regulation) Bill</a>(714.14 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Revised Draft Land Titling Bill 2011 13-05-2011.pdf" >Draft (Revised) Land Titling Bill, 2011</a>(355.33 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/NAC Draft Communal Violence Bill 2011.pdf" >NAC Draft Prevention of Communal and Targeted Violence (Access to Justice and Reparations) Bill, 2011</a>(968.00 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Mental Health Care Act, 2010.pdf" >Draft Mental Health Care Act, 2010</a>(365.55 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Persons with Disabilities Act, 2011.pdf" >Draft Persons with Disabilities Act, 2011</a>(453.11 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Electronic Service Delivery Bill-2011.pdf" >Draft Electronic Service Delivery Bill</a>(162.15 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/NALSA.pdf" >Draft Legal Practitioners (Regulations and Maintenance of Standards in Professions, Protecting the Interest of Clients and Promoting the Rule of Law) Act, 2010</a>(54.65 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Final Model Land Titling Act-04.5.10.pdf" >Draft Land Titling Bill 2010</a>(282.37 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media///NIA Draft Bill.pdf" >Draft National Identification Authority of India Bill, 2010</a>(357.65 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/draft_cbi_act2010.pdf" >Draft Central Bureau of Investigation Act, 2010</a>(54.86 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/modelpublicservicelaw.pdf" >Draft Model Public Service Law</a>(124.69 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Regulatory Reform Bill.pdf" >Draft Regulatory Reform Bill</a>(6,414.56 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Criminal Law (Amendment) Bill 2010.pdf" >Draft Criminal Law (Amendment) Bill 2010</a>(47.68 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/draft NCHER_Bill.pdf" >Draft National Commission for Higher Education and Research Bill, 2010</a>(122.52 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Draft Model Panchayat and Gram Swaraj Act.pdf" >Draft Model Panchayat and Gram Swaraj Act</a>(1,112.33 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media//draft/Nyaya Panchayats Bill, 2009.pdf" >Draft Nyaya Panchayats Bill, 2009</a>(189.58 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media///Model Real Estate Act.pdf" >Draft Model Real Estate (Regulation of Development) Act</a>(155.52 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media///Draft_Bill_-_The_National_Council_for_Human_Resources_for_Health_Bill,_2009.pdf" >Draft National Council for Human Resources for Health Bill 2009</a>(83.37 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media///Draft_National_Bill.pdf" >Draft National Health Bill, 2009</a>(507.26 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1251088381~~Direct%20Taxes%20Code%20Bill%202009.pdf" >Draft Income Tax Bill, 2009</a>(701.66 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1245736001~~Major Ports Regulatory Authority Act, 2009.pdf" >Draft Major Ports Regulatory Authority Act, 2009</a>(277.26 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241500117~~Draftinnovationlaw.pdf" >Draft National Innovation Act, 2008</a>(99.48 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241500084~~DraftARTBill.pdf" >Draft Assisted Reproductive Technologies (Regulation) Bill, 2008</a>(465.96 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241500022~~Draft_Shipping_Bill.pdf" >Draft Shipping Trade Practices Bill, 2008</a>(118.59 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499959~~DNA_Bill.pdf" >Draft DNA Profiling Bill, 2007</a>(164.58 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499927~~Broadcasting_Services_Regulation_Bill_2007.pdf" >Draft Broadcasting Services Regulation Bill, 2007</a>(209.47 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499876~~draft_companies_bill.pdf" >Draft Companies Bill, 2003</a>(788.11 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499808~~draft_sexual_harassment_bill.pdf" >Draft Sexual Harassment at Workplace Bill, 2007</a>(99.91 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499767~~A_DRAFT_OF_THE_PROPOSED_BROADCASTING_SERVICES_REGULATION_BILL2006.pdf" >Draft Broadcasting Services Regulation Bill, 2006</a>(77.47 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499740~~DraftPublicServicesBill2006.pdf" >Draft Public Services Bill, 2006</a>(135.76 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499712~~mpolice_act.pdf" >Draft Police Act, 2006</a>(631.23 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499654~~madra_act.pdf" >Draft Medical Device Regulation Act, 2006</a>(142.02 KB )       </td>
      </tr>
      <tr valign="top" align="left">
-        <td><img src="/img/imagespdf.jpg"></td>
+        <td><img src="img/imagespdf.jpg"></td>
         <td>
               <a href="http://www.prsindia.org/uploads/media/vikas_doc/docs/1241499576~~DraftBioTechBill2008.pdf" >Draft National BioTechnology Regulatory Bill, 2008</a>(232.74 KB )       </td>
      </tr>
