@@ -13,7 +13,7 @@
     <script type="text/javascript" charset="utf-8" src="appframework/appframework.ui.min.js"></script>
     <!--AppFramework plugin for sliding side menu-->
     <script type="text/javascript" charset="utf-8" src="appframework/plugins/af.slidemenu.js"></script>
-
+    <script type="text/javascript" charset="utf-8" src="appframework/list.js"></script>
     <!-- phantom library, needed for XDK "legacy" container api calls -->
     <script src="intelxdk.js"></script>
     <!-- phantom library, needed for Cordova api calls -->
@@ -523,7 +523,30 @@
                 <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
                 <h1>Legislators</h1>
             </header>
-            <p>This is view for second menu item</p>
+            <input class="search" placeholder="Search" />
+                    <button class="sort" data-sort="name">
+                    Sort by name
+                    </button>
+
+                    <ul class="list">
+                        <li>
+                            <h3 class="name">Jonny Stromberg</h3>
+                            <p class="state">Madhya Pradesh</p>
+                        </li>
+                        <li>
+                            <h3 class="name">Jonas Arnklint</h3>
+                            <p class="state">Delhi</p>
+                        </li>
+                        <li>
+                            <h3 class="name">Martina Elm</h3>
+                            <p class="state">Uttar Pradesh</p>
+                        </li>
+                        <li>
+                            <h3 class="name">Gustaf Lindqvist</h3>
+                            <p class="state">Assam</p>
+                        </li>
+                    </ul>
+            <p></p>
         </div>
         
         <div class="panel" title="Bills" id="page3" data-footer="none">
@@ -815,8 +838,17 @@
             <header>
                 <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
                 <h1>AMA sessions</h1>
+                
             </header>
-            <p>This is view for fourth menu item</p>
+                <p><li><<iframe width="420" height="315"
+                src="http://www.youtube.com/embed/gRkdN13MIko">
+                </iframe></li>
+                <li><iframe width="420" height="315"
+                src="http://www.youtube.com/embed/0t6zYLrdGvU">
+                </iframe></li>
+                <li><iframe width="420" height="315"
+                src="http://www.youtube.com/embed/Vka4hKFAx1w">
+                </iframe></li><\p>
         </div>
         
     </div>
